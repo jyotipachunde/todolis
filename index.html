@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>todo list</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <script src="https://kit.fontawesome.com/47892748f1.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <div class="card">
+        <div class="card-body">
+    <form id="todoform">
+        <div class="form-group">
+            <label for="todoitem">add todo</label>
+            <input type="text" id="todoitem" class="form-control" required="">
+        </div>
+        
+            <button id="additem" type="submit" class="btn btn-outline-primary btn-sm btn-block">Add to do</button>
+              <button id="updateitembtn" type="button" class="btn btn-outline-primary btn-sm btn-block d-none">Update student</button>
+        </form>
+    </div>
+         </div>
+         </div>
+             <div class="col-md-8">
+    <div class="card">
+        <div class="card-body">
+            <ul class="list-group" id="ulid">
+                 <!--<li class="list-group-item d-flex justify-content-between" id="e8c3eb94-85dd-4388-af3e-76bd39180b89">
+                   <strong> css</strong>
+                    <div>
+                    <i onclick="onedit(this)" class="fas fa-edit text-success" aria-hidden="true"></i>
+                     <i onclick="onremove(this)" class="fas fa-trash-alt text-danger" aria-hidden="true"></i>
+                </div></li>--> 
+                 </ul>
+            
+            </div>
+        </div>
+    </div>
+     </div>
+      </div>
+
+<script src="./assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+ </body>
